@@ -1,4 +1,4 @@
-from main import calculate_result
+from studentmarks import calculate_result
 
 def test_total():
     total,average,percentage = calculate_result(80,90,70)
